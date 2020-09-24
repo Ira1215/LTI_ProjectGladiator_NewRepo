@@ -1,7 +1,7 @@
 package com.lti.model;
 
 import java.io.Serializable;
-import java.sql.Date;
+import java.util.Date;
 import java.util.Set;
 
 import javax.persistence.CascadeType;
@@ -95,8 +95,8 @@ public class StudentRegistrationDetails implements Serializable {
 		return studentDob;
 	}
 
-	public void setStudentDob(Date studentDob) {
-		this.studentDob = studentDob;
+	public void setStudentDob(Date date) {
+		this.studentDob = date;
 	}
 
 	public String getStudentAadharNo() {
